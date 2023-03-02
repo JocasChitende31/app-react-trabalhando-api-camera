@@ -1,5 +1,13 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $[myCamera] to access your camera"
+        }
+      ]
+    ],
     "name": "myCamera",
     "slug": "myCamera",
     "version": "1.0.0",
